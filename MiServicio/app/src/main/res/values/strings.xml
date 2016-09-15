@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MiServicio</string>
+
+
+    <string name="TxtService">Inicie o Detenga los Servicios:</string>
+    <string name="BtnStartService">INICIAR</string>
+    <string name="BtnStopService">DETENER</string>
+
+
+</resources>

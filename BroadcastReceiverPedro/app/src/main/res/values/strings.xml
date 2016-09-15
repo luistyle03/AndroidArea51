@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BroadcastReceiverPedro</string>
+
+    <string name="airplane_mode_on">Modo Avion encendidoooo!!!</string>
+    <string name="airplane_mode_off">Modo Avion apagadoooo!!</string>
+
+    <string name="Txt_Btn">Enviar Broadcast</string>
+    <string name="button_clicked">Se ha presionado el boton</string>
+
+
+
+</resources>

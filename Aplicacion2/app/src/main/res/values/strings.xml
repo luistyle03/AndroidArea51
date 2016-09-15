@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aplicacion2</string>
+
+    <string name="text_ingreso">Nombres y Apellidos</string>
+    <string name="buton_ingreso">ENTRARRR</string>
+    <string name="hint_name">Ingresa tus nombres</string>
+
+    <string name="Texto_Bienvenida">Bienvenido %s!!!!!</string>
+
+
+
+</resources>
