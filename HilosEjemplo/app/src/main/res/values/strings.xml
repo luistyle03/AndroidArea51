@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HilosEjemplo</string>
+
+
+    <string name="run_on_ui_thread">Ejecutar en el hilo principal</string>
+    <string name="loading">Un momento&#8230; </string>
+
+</resources>
