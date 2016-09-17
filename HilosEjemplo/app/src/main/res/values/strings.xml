@@ -2,7 +2,11 @@
     <string name="app_name">HilosEjemplo</string>
 
 
-    <string name="run_on_ui_thread">Ejecutar en el hilo principal</string>
+    <string name="run_on_ui_thread">Ejecutar en el hilo principal Main Thread</string>
     <string name="loading">Un momento&#8230; </string>
+    <string name="lblInstrucciones">Presione cualquiera de los botones para ejecutar un proceso largo de diferentes maneras </string>
+
+    <string name="run_on_worker_thread">Ejecutar el worker Thread </string>
+
 
 </resources>

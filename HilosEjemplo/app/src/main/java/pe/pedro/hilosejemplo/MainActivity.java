@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.button_run_on_ui_thread).setOnClickListener(this);
+        findViewById(R.id.button_run_on_worker_thread).setOnClickListener(this);
+
     }
 
     @Override
@@ -21,6 +23,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.button_run_on_ui_thread:
                 executeLongOnUiThread();
+                break;
+            case R.id.button_run_on_worker_thread:
+                executeLongOnWorkerThread();
                 break;
         }
     }
@@ -31,6 +36,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         progressDialog.show();
         executeLongTask();
         progressDialog.dismiss();
+    }
+
+    private void executeLongOnWorkerThread(){
+        final Dialog progressDialog=createProgressDialog();
+        progressDialog.show();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                executeLongTask();
+                progressDialog.dismiss();
+            }
+        }).start();
+
+
     }
 
 
